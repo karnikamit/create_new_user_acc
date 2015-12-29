@@ -1,14 +1,15 @@
 Create New User Account
 =======================
 * Json Details
-    {"fullname":"", "email":"", "username":"", "password":"","is_active":True}
+    data = {"fullname":"", "email":"", "username":"", "password":""}
 
-* MongoDB name
+* MongoDB
+    db_name = db
 
 * How to use
 ------------
 
 ::
 
-    create_account(Json Details, DB name)
+    create_account(data, db_name)
 
