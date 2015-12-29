@@ -2,7 +2,7 @@
 __author__ = "karnikamit"
 from setuptools import setup
 
-setup(name='create_new_user',
+setup(name='create_new_user_acc',
       version='0.2',
       description='Creates a new user account and saves the details in MongoDB',
       url='https://github.com/karnikamit/create_new_user_acc.git',
